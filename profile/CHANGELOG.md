@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Updated walkie talkie image to reflect new stats
+- Prettified https://theremnantsnft.com on mobile screens a bit
 
 ## [0.1.1.0] - 2022-01-15 🚧 Hotfix patch
 
