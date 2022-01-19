@@ -6,8 +6,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Additional security layers were provided. Also made the server give the "🖕" response when somebody tries to attack it
-- Added Bolt Cutters item to the prison trip ✂
+- Additional security layers were provided
+- Added Bolt Cutters item to the prison trip. 2% to loot that baby mmm ✂
 
 ### Changed
 

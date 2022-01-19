@@ -6,11 +6,12 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Additional security layers were provided. Also made the server give the "🖕" response when a specific person tries to repeat the attack.
+- Additional security layers were provided
+- Added Bolt Cutters item to the prison trip ✂
 
 ### Changed
 
-- Try autoconnecting users **only** if Phantom wallet extension is installed and app is set to trusted
+- Try autoconnecting wallet **only** if Phantom wallet extension is installed and app is set to trusted
 - After sending a remnant on a loot trip, Remnants "drawer" now autocloses only if there are no free remnants left
 - Now displaying the number of loot keys each remnant holds, in the inventory dialog
 
@@ -18,6 +19,7 @@ All notable changes to this project will be documented in this file.
 
 - Updated walkie talkie image to reflect new stats
 - Prettified https://theremnantsnft.com on mobile screens a bit
+- Fixed countdown timer falling out of sync
 
 ## [0.1.1.0] - 2022-01-15 🚧 Hotfix patch
 
@@ -32,14 +34,13 @@ All notable changes to this project will be documented in this file.
 - https://theremnantsnft.com prettified. Go give it some love and tell us your feedback so we can make it more attractive!
 - Walkie talkie effect changed to decrease the loot trip time.
 - Minor quality of life changes
-
+- Updated help dialog so it's easier to read
 
 ### Fixed
 
 - Zombie-19 is running wild in the Longwood Valley. We have put restrictions in order to stop the pandemic. No zombies can come close to you within 2 meters distance. **Actually** nerfing zombies this time
 - **WALKIE TALKIE + SURVIVAL GUIDE EFFECTS NOT STACKING AT THE MOMENT. Wait for our backend guy to wake up so he can sort that out. Expect a fix today or on Monday**
 - Loot keys properly decremented after sending your #Remnant on a loot trip
-
 
 ## [0.1.0.3] - 2022-01-13 ⛺ Weekly patch
 
