@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0.1] - 2022-01-19 😶 hotfix patch
+
+### Added
+
+- Added Military base! For you lucky bastards that got Bolt Cutters, you can now access the military base location
+
+### Changed
+
+- Optimized API calls
+
+### Fixed
+
+- Fixed a bug where Solana transaction couldn't be confirmed on their part, so the request would timeout and act like transaction passed
+
 ## [0.2.0.0] - 2022-01-19 😎 Weekly patch
 
 ### Added
