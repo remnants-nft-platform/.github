@@ -18,8 +18,9 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- Fixed backpack. It's working now and if you equip it, you will be able to carry 3 items along with it
-
+- Backpack is now working and if you equip it, you will be able to carry 3 items along with it
+- Various bugfixes are resolved. e.g. when "Loot received" dialog wouldn't show up
+- 
 ## [0.2.0.1] - 2022-01-21 😶 Hotfix patch
 
 ### Added
