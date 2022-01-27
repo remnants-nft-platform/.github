@@ -2,7 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.2.0.1] - 2022-01-19 😶 hotfix patch
+## [0.2.0.1] - 2022-01-27 🚀 Weekly patch
+
+### Added
+
+- Added option to CLAIM ALL available rewards at once. This feature is still WIP as we need to list all the items/tokens obtained
+- New options in app settings: you can now enable "Advanced looting" mode which effectively skips some steps (e.g. Location Details dialog) and does some other optimizations
+- Items equipped on your last loot trip are now saved so you can send your remnants on new trips faster. In the future we will also make this toggleable in app settings, and we would make it cross-device
+
+### Changed
+
+- Now sorting busy Remnants by the time left on loot trip
+- Auto refresh the page if user changes the wallet
+- Prettified the "Loot received" dialog
+
+### Fixed
+
+- Fixed backpack. It's working now and if you equip it, you will be able to carry 3 items along with it
+
+## [0.2.0.1] - 2022-01-21 😶 Hotfix patch
 
 ### Added
 
