@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.2.0.1] - 2022-01-27 🚀 Weekly patch
+## [0.2.1.0] - 2022-01-27 🚀 Weekly patch
 
 ### Added
 
