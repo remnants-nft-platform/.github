@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0.0] - 2022-03-06 🐒 Weekly patch
+
+### Added
+
+- We are now subscribing to NFT transfers on the blockchain and update Remnant and Camp owners live
+- "Sync wallet" button is added as a fallback which you could use to manually update your holdings (Remnants, Camps, $CMP)
+- Listings search view is now live: https://camp.theremnantsnft.com/collection/remnants
+- Longwood Valley Items view is now live (accessible from the crafting dialog): https://camp.theremnantsnft.com/collection/items
+- If our server fails to send a transaction to you (e.g. when claiming rewards) it will automatically retry each following hour, until it succeeds
+
+### Changed
+
+- Transaction handling is now smarter (and faster in some cases)
+- 4 loot keys are granted automatically to new players who bought from Magic Eden
+- Listing on Magic Eden cancels the active loot trip and removes it from your gameplay
+- Some other small UI/UX changes and improvements
+
+### Fixed
+
+- $CMP token value is now correctly displayed after each action (send items, buy keys, craft items)
+- Loot keys are now handed out properly at midnight UTC
+- Some optimizations
+
+### Coming soon
+
+- Option to migrate keys from one wallet to another (migration of keys, not selling)
+- Autorefresh authorization token while logged into the app
+- Discord notifications bot for new infections
+- Discord notifications bot for new listings
+- Smarter Mobile UI
+- Ledger support
+
+## [0.3.1.0] - 2022-02-24 🤯 Hotfix patch
+
+### Changed
+
+- There is no "Save inventory" button anymore, clicking on an item will equip/uneqip it
+
+### Fixed
+
+- Backpack bug fixed
+
+## [0.3.0.0] - 2022-02-14 🥰 Weekly patch
+
+### Added
+
+- New Longwood Valley map (shown on homescreen)
+- New inventory system
+- Item crafting
+- Sending items
+- Buying loot keys
+
 ## [0.2.1.0] - 2022-01-27 🚀 Weekly patch
 
 ### Added
@@ -18,8 +70,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- Backpack is now working and if you equip it, you will be able to carry 3 items along with it
-- Various bugfixes are resolved. e.g. when "Loot received" dialog wouldn't show up
+- Fixed backpack. It's working now and if you equip it, you will be able to carry 3 items along with it
 
 ## [0.2.0.1] - 2022-01-21 😶 Hotfix patch
 
