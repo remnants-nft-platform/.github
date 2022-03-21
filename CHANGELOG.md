@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.1.0] - 2022-03-21 🌭 Hotfix patch
+
+### Added
+
+- Authorization token is now automatically refreshed if user keeps visiting they app every hour or so.
+- Discord notifications for infections (will stay inactive for a few more days though)
+- Discord notifications for new listings (includes items the listed Remnant owns)
+- Option to migrate all of your keys from one wallet to another
+- Ledger support
+- Our API is public and has it's first actually readable iteration. It will get even more love in the following weeks! In the following days we will also create the #DEV-talks channel for anyone interested in building plugins, browser extensions... you can check the endpoints at: https://remnants-prod-zqgkoqmdwq-uc.a.run.app/api/
+
+### Fixed
+
+- We have migrated from Quiknode to a public genesysgo node. Everything should work now, **but** this will be the **first time stress testing transactions on this public node**. There could be some failed transactions, but we are keeping track of all of them in our database. If gg node turns out not to be a proper solution, we will look for another one, or possibly fix our quiknode setup and rollback to it.
+
+### Coming soon
+
+- @Shishka will put our compensation CRON job live once he is up tonight. Which means whenever you experience a failed transactions or receive no $CMP tokens from "Claim rewards", it should be automatically compensated within 30-60 minutes.
+
 ## [0.4.0.0] - 2022-03-06 🐒 Weekly patch
 
 ### Added
@@ -24,15 +43,6 @@ All notable changes to this project will be documented in this file.
 - $CMP token value is now correctly displayed after each action (send items, buy keys, craft items)
 - Loot keys are now handed out properly at midnight UTC
 - Some optimizations
-
-### Coming soon
-
-- Option to migrate keys from one wallet to another (migration of keys, not selling)
-- Autorefresh authorization token while logged into the app
-- Discord notifications bot for new infections
-- Discord notifications bot for new listings
-- Smarter Mobile UI
-- Ledger support
 
 ## [0.3.1.0] - 2022-02-24 🤯 Hotfix patch
 
