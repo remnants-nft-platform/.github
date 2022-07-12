@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.1.0] - 2022-07-12 🍆 Weekly patch
+
+### Added
+
+- 24h in-game marketplace $CMP volume is now displayed in the navigation bar
+- Zombies now get infected on chain faster than before. This process has been automised for the most part 🧟
+- **Magic Eden API integration**. You can now visit the "Town Hall" on the map to recruit new remnants, or ditch the ones that fail at delivering proper loot! Come and test the feature with us by buying a few new recruits! 😎
+
+### Changed
+
+- Marketplace dialog is not closed automatically after making a purchase
+- Aggregated inventory now has 3 columns on extra large screens
+- "Sync Wallet" now also refreshes your bank storage
+
+### Fixed
+
+- Order of items in blacksmith is now fixed by item levels
+- Hotkeys are now not triggered when writing down text in inputs
+- Breaking an item from the bank storage now correctly updates your bank storage
+- Breakdown process does not destroy gained items anymore if breakdown slot is full
+- Various smaller UI/UX improvements, like fixed text overflow etc.
+
+### Coming (relatively) soon
+
+- Enable listing items in decimals
+- Item deletion/incinerate
+- Finally bringing into life discord bots that we have lying around for months... zombie infection notifications and new listings on Magic Eden
+- Overhaul of resources in a way where they aren't items anymore, but a currency (like loot keys)
+
+---
+
+[Long period of undocumented changelog]
+
+---
+
 ## [0.4.1.0] - 2022-03-21 🌭 Hotfix patch
 
 ### Added
