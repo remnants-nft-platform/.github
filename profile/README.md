@@ -2,7 +2,7 @@
 
 ## Official Links
 
-**Website:** [https://theremnantsnft.com/](https://theremnantsnft.com/)
+**Website:** [https://theremnants.app/](https://theremnants.app/)
 
 **Twitter:** [https://twitter.com/RemnantsNFT](https://twitter.com/RemnantsNFT)
 
